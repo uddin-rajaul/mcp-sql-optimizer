@@ -1,0 +1,6 @@
+startCommand:
+  type: stdio
+  command: python
+  args:
+    - server.py
+installCommand: pip install -r requirements.txt
